@@ -1,2 +1,12 @@
-# no-yt-short
-An extension for Safari and Firefox which hides YouTube Shorts section on YouTube
+# No YouTube Shorts
+
+An extension for FireFox and Safari (in development)removes YouTube Shorts from YouTube.
+
+
+# Testing
+
+## Firefox
+
+You can test it running `web-ext run`
+
+See [github.com/mozilla/web-ext](https://github.com/mozilla/web-ext)

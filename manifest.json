@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "No-YT-Shorts",
+    "description": "Hides YouTube Shorts",
+    "version": "1.0",
+    "author": "Lars Kakavandi-Nielsen",
+    "homepage_url": "https://no-yt-shorts.loooptools.com/",
+
+    "icons": {
+        "48": "icons/no-yt-short-48.png",
+        "96": "icons/no-yt-short-96.png"
+    },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"],
+        "run_at": "document_idle",
+        "all_frames": true
+    }
+  ]
+}
