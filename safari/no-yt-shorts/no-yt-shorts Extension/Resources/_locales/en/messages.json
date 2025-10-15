@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "No YouTube Shorts Extension",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Hides the Shorts on YouTube",
+        "description": "Description of what the extension does."
+    }
+}
