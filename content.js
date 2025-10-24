@@ -31,12 +31,8 @@ function hideYoutubeShorts(tag, nearest) {
 }
 
 function hideAllYoutubeShortsElements() {
-
     hideYoutubeShorts(h2_tag, dismissible_id);
     hideYoutubeShorts(div_tag, a_tag);
-
-    setInterval(hideAllYoutubeShortsElements, 1000);
-
 }
 
-hideAllYoutubeShortsElements();
+setInterval(hideAllYoutubeShortsElements, 1000);
